@@ -1,13 +1,14 @@
+
 ```markdown
 # Assignment 2 – Language Model Training (Underfit, Overfit & Best Fit)
 
-This project implements and compares three training behaviors of a simple **Neural Language Model** using **PyTorch**:
+This project demonstrates three different training behaviors of a simple **Neural Language Model** built using **PyTorch**:
 
 - **Underfitting**
 - **Overfitting**
-- **Best Fit (Optimal Generalization)**
+- **Best Fit (Optimal Training)**
 
-The objective is to understand how training configuration, dataset size, and model capacity affect generalization.
+The goal is to analyze how model complexity and training duration influence validation performance.
 
 ---
 
@@ -34,40 +35,34 @@ Assignment2/
 
 ---
 
-## 🚀 How to Run the Project
+## 🚀 How to Run
 
 ### 1️⃣ Install Dependencies
 ```bash
 pip install torch matplotlib numpy
 ````
 
-### 2️⃣ Choose the Training Scenario
+### 2️⃣ Select the Scenario
 
-Open **train.py** and set:
+Inside **train.py** set:
 
 ```python
 EXPERIMENT = "underfit"
-# or
-EXPERIMENT = "overfit"
-# or
-EXPERIMENT = "bestfit"
+# or "overfit"
+# or "bestfit"
 ```
 
-### 3️⃣ Run the Training
+### 3️⃣ Run Training
 
 ```bash
 python train.py
 ```
 
-Each run will automatically save the corresponding plot in the **plots/** folder.
-
 ---
 
-# 📊 Training Result Plots
+# 📊 Output Plots
 
 ## ✅ Best Fit
-
-Training loss and validation loss decrease steadily → good generalization.
 
 ![Best Fit](plots/loss_bestfit.png)
 
@@ -75,77 +70,55 @@ Training loss and validation loss decrease steadily → good generalization.
 
 ## ❌ Overfit
 
-Training loss keeps decreasing, but validation loss increases → model memorizes data.
-
 ![Overfit](plots/loss_overfit.png)
 
 ---
 
 ## ⚠ Underfit
 
-Both training and validation losses remain high → model too simple or trained too little.
-
 ![Underfit](plots/loss_underfit.png)
 
 ---
 
-# 🧠 Summary of the Three Scenarios
+# 🧠 Summary of Training Scenarios
 
-| Scenario     | Train Loss      | Validation Loss            | Explanation                                           |
-| ------------ | --------------- | -------------------------- | ----------------------------------------------------- |
-| **Underfit** | Slight decrease | Stagnant / slightly rising | Model is too simple or training is too short          |
-| **Overfit**  | Very low        | High and rising            | Model memorizes training data but fails to generalize |
-| **Best Fit** | Smooth decrease | Smooth decrease            | Balanced capacity → best performance                  |
-
----
-
-# 🛠 Code Overview
-
-## `model.py`
-
-Defines the neural network architecture:
-
-* Embedding layer
-* Hidden linear layer
-* ReLU activation
-* Output projection
-
-## `utils.py`
-
-Handles:
-
-* Text preprocessing
-* Dataset batching
-* Train/validation split
-
-## `train.py`
-
-Responsible for:
-
-* Loading data
-* Selecting experiment type
-* Running training loop
-* Saving loss plots
+| Scenario     | Train Loss | Validation Loss   | Interpretation                            |
+| ------------ | ---------- | ----------------- | ----------------------------------------- |
+| **Underfit** | High       | High              | Model is too small or trained too little  |
+| **Overfit**  | Very low   | High (increasing) | Model memorizes training data             |
+| **Best Fit** | Low        | Low               | Good balance of capacity & generalization |
 
 ---
 
-# 🎯 Learning Outcomes
+# 🛠 Files Description
 
-By completing this assignment, you learn:
+### `model.py`
 
-* What causes **underfitting** and **overfitting**
-* How to control model capacity and epochs
-* How to evaluate model performance using **loss curves**
-* How training settings impact generalization
+Contains the language model architecture.
+
+### `utils.py`
+
+Handles preprocessing, batching, and dataset splitting.
+
+### `train.py`
+
+Main script that:
+
+* Loads dataset
+* Trains the model
+* Generates loss plots
 
 ---
 
-# ✨ Author
+# ✨ Contact Information
 
-Nikshitha Kompally
+**Name:** Your Name
+**Mobile:** +91 9876543210
+**Email:** [yourname@gmail.com](mailto:yourname@gmail.com)
+**Google Drive Submission Link:** [https://drive.google.com/your-folder-link](https://drive.google.com/your-folder-link)
+
+
 
 ---
 
-
-
-```
+#
