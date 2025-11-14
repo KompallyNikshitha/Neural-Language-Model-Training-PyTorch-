@@ -12,10 +12,6 @@ The goal is to analyze how model complexity and training duration influence vali
 
 ---
 
-
-
----
-
 ## 🚀 How to Run
 
 ### 1️⃣ Install Dependencies
@@ -45,7 +41,7 @@ python train.py
 
 ## ✅ Best Fit
 
-![Best Fit](plots/loss_bestfit.png)
+![Best Fit](experiments/loss_bestfit.png)
 
 ---
 
