@@ -12,26 +12,7 @@ The goal is to analyze how model complexity and training duration influence vali
 
 ---
 
-## 📁 Project Structure
 
-```
-
-Assignment2/
-│── data/
-│   └── input.txt
-│
-│── model.py
-│── utils.py
-│── train.py
-│
-│── plots/
-│   ├── loss_underfit.png
-│   ├── loss_overfit.png
-│   ├── loss_bestfit.png
-│
-└── README.md
-
-````
 
 ---
 
@@ -112,10 +93,10 @@ Main script that:
 
 # ✨ Contact Information
 
-**Name:** Your Name
-**Mobile:** +91 9876543210
-**Email:** [yourname@gmail.com](mailto:yourname@gmail.com)
-**Google Drive Submission Link:** [https://drive.google.com/your-folder-link](https://drive.google.com/your-folder-link)
+**Name:** Nikshitha Kompally
+**Mobile:** +91 9701495508
+**Email:** [nikshithakompally08@gmail.com](mailto:nikshithakompally08@gmail.com)
+**Google Drive Submission Link:** [https://drive.google.com/drive/folders/1J_G7dBAwUTf5eAOwzpHHO1ogRTXArjMa?usp=drive_link](https://drive.google.com/drive/folders/1J_G7dBAwUTf5eAOwzpHHO1ogRTXArjMa?usp=drive_link)
 
 
 
