@@ -42,20 +42,17 @@ python train.py
 # 📊 Output Plots
 
 ## ✅ Best Fit
-
-![Best Fit](experiments\loss_bestfit.png)
+<img width="640" height="480" alt="loss_bestfit" src="https://github.com/user-attachments/assets/747fbc84-073e-4397-90be-f83311bd7c1b" />
 
 ---
 
 ## ❌ Overfit
-
-![Overfit](plots/loss_overfit.png)
+<img width="640" height="480" alt="loss_overfit" src="https://github.com/user-attachments/assets/64ba9771-2030-49c7-84ab-7c0989d11e1f" />
 
 ---
 
 ## ⚠ Underfit
-
-![Underfit](plots/loss_underfit.png)
+<img width="640" height="480" alt="loss_underfit" src="https://github.com/user-attachments/assets/19e7fdaf-7601-4720-9777-46525537ece2" />
 
 ---
 
