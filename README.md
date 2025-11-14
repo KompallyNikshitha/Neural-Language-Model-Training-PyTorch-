@@ -11,12 +11,14 @@ This project demonstrates three different training behaviors of a simple **Neura
 The goal is to analyze how model complexity and training duration influence validation performance.
 
 ---
-
+```
 ## 🚀 How to Run
 
-### 1️⃣ Install Dependencies
+## **1️⃣ Install Dependencies**
+
 ```bash
 pip install torch matplotlib numpy
+
 ````
 
 ### 2️⃣ Select the Scenario
@@ -41,7 +43,7 @@ python train.py
 
 ## ✅ Best Fit
 
-![Best Fit](experiments/loss_bestfit.png)
+![Best Fit](experiments\loss_bestfit.png)
 
 ---
 
@@ -90,8 +92,11 @@ Main script that:
 # ✨ Contact Information
 
 **Name:** Nikshitha Kompally
+
 **Mobile:** +91 9701495508
+
 **Email:** [nikshithakompally08@gmail.com](mailto:nikshithakompally08@gmail.com)
+
 **Google Drive Submission Link:** [https://drive.google.com/drive/folders/1J_G7dBAwUTf5eAOwzpHHO1ogRTXArjMa?usp=drive_link](https://drive.google.com/drive/folders/1J_G7dBAwUTf5eAOwzpHHO1ogRTXArjMa?usp=drive_link)
 
 
